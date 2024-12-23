@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/monikers-webapp/static/css/main.f0acb80b.css",
+    "main.js": "/monikers-webapp/static/js/main.81fda622.js",
+    "index.html": "/monikers-webapp/index.html",
+    "main.f0acb80b.css.map": "/monikers-webapp/static/css/main.f0acb80b.css.map",
+    "main.81fda622.js.map": "/monikers-webapp/static/js/main.81fda622.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f0acb80b.css",
+    "static/js/main.81fda622.js"
+  ]
+}
