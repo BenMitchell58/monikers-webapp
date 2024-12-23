@@ -1,13 +1,531 @@
+/* General Styles */
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+h1,
+h2 {
+  text-align: center;
+  color: #333;
+}
+
+button {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+/* Card List Styling */
+.card-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 15px;
+  padding: 20px;
+  max-height: 70vh; /* Limit the height */
+  overflow-y: auto; /* Enable scrolling */
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin: 0 auto;
+  width: 90%;
+}
+
+/* Individual Card Styling */
+.card {
+  background-color: #fff;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card.selected {
+  border: 2px solid #4caf50;
+}
+
+.card h3 {
+  margin: 10px 0 5px;
+  font-size: 16px;
+  color: #333;
+}
+
+.card-description {
+  font-size: 12px;
+  color: #666;
+  margin-top: 5px;
+  line-height: 1.4;
+}
+
+/* General Body Styling */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Starting Screen Styles */
+.starting-screen {
+  text-align: center;
+  width: 100%;
+  max-width: 400px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.starting-screen h1 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.form-container label {
+  text-align: left;
+  margin: 10px 0 5px;
+  font-weight: bold;
+  color: #333;
+}
+
+.form-container input {
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px;
+  font-size: 16px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Selected Cards Section */
+.selected-cards {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.selected-cards h3 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.selected-card-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.selected-card {
+  background-color: #f4f4f4;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.2s ease;
+}
+
+.selected-card:hover {
+  background-color: #ffd6d6;
+}
+
+.selected-card h4 {
+  margin: 0;
+  font-size: 14px;
+  color: #555;
+}
+
+/* Refresh Button Styles */
+.refresh-container {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.refresh-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.refresh-button:hover {
+  background-color: #0056b3;
+}
+/* Ready Screen Styling */
+.ready-screen {
+  text-align: center;
+  padding: 20px;
+  background-color: #f9f9f9;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.ready-screen h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.ready-screen h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #555;
+}
+
+.start-button {
+  padding: 15px 30px;
+  font-size: 18px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.start-button:hover {
+  background-color: #45a049;
+}
+
+/* Game Round Styling */
+.game-round {
+  text-align: center;
+  padding: 20px;
+  background-color: #f9f9f9;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.game-round h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.timer {
+  font-size: 24px;
+  font-weight: bold;
+  color: #ff4d4f;
+  margin-bottom: 30px;
+}
+
+.card-display {
+  text-align: center;
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 30px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card-display h3 {
+  font-size: 22px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.card-display p {
+  font-size: 16px;
+  color: #555;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+button:nth-child(2) {
+  background-color: #f44336;
+}
+
+button:nth-child(2):hover {
+  background-color: #d32f2f;
+}
+
+.timer {
+  font-size: 24px;
+  font-weight: bold;
+  color: #ff4d4f;
+  margin-bottom: 20px;
+}
+
+.card-display {
+  text-align: center;
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 30px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card-display h3 {
+  font-size: 22px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.card-display p {
+  font-size: 16px;
+  color: #555;
+}
+
+/* Ready Screen Styles */
+.ready-screen {
+  text-align: center;
+  padding: 20px;
+  background-color: #f9f9f9;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.ready-screen h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.ready-screen h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #555;
+}
+
+.scoreboard {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.scoreboard p {
+  font-size: 18px;
+  margin: 5px 0;
+  color: #555;
+}
+
+.start-button {
+  padding: 15px 30px;
+  font-size: 18px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.start-button:hover {
+  background-color: #45a049;
+}
+
+.round-end-screen {
+  text-align: center;
+  padding: 20px;
+  background-color: #f9f9f9;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.round-end-screen h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.round-end-screen h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #555;
+}
+
+.scoreboard {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.scoreboard p {
+  font-size: 18px;
+  margin: 5px 0;
+  color: #555;
+}
+
+.start-button {
+  padding: 15px 30px;
+  font-size: 18px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.start-button:hover {
+  background-color: #45a049;
+}
+
+/* Ready Screen Styles */
+.ready-screen h2 {
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: #666;
+}
+
+/* Round End Screen Styles */
+.round-end-screen h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+/* General Card Styles */
+.card {
+  background-color: #fff;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+}
+
+.card.selected {
+  border: 2px solid #4caf50;
+}
+
+.card h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.card-category {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  padding: 5px;
+  border-radius: 3px;
+  display: inline-block;
+}
+
+/* Category-Specific Colors */
+.card-category.celebrity {
+  background-color: #fdd835;
+  color: #333;
+}
+
+.card-category.fictional {
+  background-color: #03a9f4;
+  color: white;
+}
+
+.card-category.et-cetera {
+  background-color: #8bc34a;
+  color: white;
+}
+
+.card-description {
+  font-size: 12px;
+  color: #666;
+  margin-top: 5px;
+  line-height: 1.4;
+}
+
+.card-points {
+  font-size: 14px;
+  font-weight: bold;
+  color: #ff5722;
+  margin-top: 10px;
+}
+
+/* Selected Cards Area */
+.selected-card {
+  background-color: #f4f4f4;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.2s ease;
+}
+
+.selected-card:hover {
+  background-color: #ffd6d6;
+}
+
+.selected-card h4 {
+  margin: 0;
+  font-size: 14px;
+  color: #555;
+}
+
+/* Category-Specific Colors */
+.card-category.celebrity {
+  background-color: #fdd835;
+  color: #333;
+}
+
+.card-category.fictional-character {
+  background-color: #03a9f4;
+  color: white;
+}
+
+.card-category.et-cetera {
+  background-color: #8bc34a;
+  color: white;
+}
+
+.card-category.historical-figure {
+  background-color: #ff9800;
+  color: white;
 }
