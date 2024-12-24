@@ -1,5 +1,5 @@
 export const DEFAULT_SETTINGS = {
-    numPlayers: 2,
-    cardsPerPlayer: 1,
-    timeLimit: 5
-}
+  numPlayers: 4,
+  cardsPerPlayer: 5,
+  timeLimit: 60,
+};
