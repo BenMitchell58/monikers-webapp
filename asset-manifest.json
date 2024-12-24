@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/monikers-webapp/static/css/main.82b0aaa8.css",
-    "main.js": "/monikers-webapp/static/js/main.0e4c8a03.js",
+    "main.css": "/monikers-webapp/static/css/main.414aa3f4.css",
+    "main.js": "/monikers-webapp/static/js/main.8c9c87d5.js",
     "index.html": "/monikers-webapp/index.html",
-    "main.82b0aaa8.css.map": "/monikers-webapp/static/css/main.82b0aaa8.css.map",
-    "main.0e4c8a03.js.map": "/monikers-webapp/static/js/main.0e4c8a03.js.map"
+    "main.414aa3f4.css.map": "/monikers-webapp/static/css/main.414aa3f4.css.map",
+    "main.8c9c87d5.js.map": "/monikers-webapp/static/js/main.8c9c87d5.js.map"
   },
   "entrypoints": [
-    "static/css/main.82b0aaa8.css",
-    "static/js/main.0e4c8a03.js"
+    "static/css/main.414aa3f4.css",
+    "static/js/main.8c9c87d5.js"
   ]
 }
