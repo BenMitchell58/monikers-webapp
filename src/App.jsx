@@ -10,7 +10,6 @@ import EndGame from "./components/EndGame";
 const App = () => {
   return (
     <Router basename="/monikers-webapp">
-      {" "}
       {/* Add basename here */}
       <Routes>
         <Route path="/" element={<StartingScreen />} />
