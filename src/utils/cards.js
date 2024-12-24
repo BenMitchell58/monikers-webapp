@@ -5009,13 +5009,13 @@ module.exports = [
     name: "Crocs",
     description:
       "Ugly yet comfortable shoes that have made a massive comeback.",
-    category: "FASHION",
+    category: "ET CETERA",
     pointValue: 2,
   },
   {
     name: "Birkenstocks",
     description: "Trendy sandals that scream 'I’m comfy and sustainable.'",
-    category: "FASHION",
+    category: "ET CETERA",
     pointValue: 2,
   },
   {
@@ -5973,6 +5973,140 @@ module.exports = [
       "The magical object that grants immortality in the Harry Potter series.",
     category: "FICTIONAL ITEM",
     pointValue: 4,
+  },
+  {
+    name: "Bowling Night",
+    description:
+      "The classic activity of knocking down pins and eating greasy snacks.",
+    category: "ACTIVITY",
+    pointValue: 2,
+  },
+  {
+    name: "Ice Skating",
+    description: "The fun activity where you glide—or stumble—on frozen water.",
+    category: "ACTIVITY",
+    pointValue: 2,
+  },
+  {
+    name: "Rock Climbing",
+    description:
+      "The challenging activity of scaling walls, real or artificial.",
+    category: "ACTIVITY",
+    pointValue: 3,
+  },
+  {
+    name: "Laser Tag",
+    description:
+      "The intense game where you tag opponents with infrared lasers.",
+    category: "ACTIVITY",
+    pointValue: 3,
+  },
+  {
+    name: "A Book Club",
+    description:
+      "The chill activity where people gather to discuss their latest read.",
+    category: "ACTIVITY",
+    pointValue: 2,
+  },
+  {
+    name: "A Picnic in the Park",
+    description: "The relaxing outdoor meal with a basket and a blanket.",
+    category: "ACTIVITY",
+    pointValue: 2,
+  },
+  {
+    name: "A Zumba Class",
+    description: "The high-energy workout where you dance your heart out.",
+    category: "ACTIVITY",
+    pointValue: 2,
+  },
+  {
+    name: "Mini Golf",
+    description:
+      "The fun activity where you putt through windmills and obstacles.",
+    category: "ACTIVITY",
+    pointValue: 3,
+  },
+  {
+    name: "Stand-Up Comedy Night",
+    description: "The event where you laugh at jokes—or awkward silence.",
+    category: "ACTIVITY",
+    pointValue: 3,
+  },
+  {
+    name: "Surfing",
+    description: "The thrilling activity of riding waves on a board.",
+    category: "ACTIVITY",
+    pointValue: 3,
+  },
+  {
+    name: "Snorkeling",
+    description:
+      "The underwater activity where you explore reefs and colorful fish.",
+    category: "ACTIVITY",
+    pointValue: 3,
+  },
+  {
+    name: "A Paintball Game",
+    description:
+      "The adrenaline-pumping battle where you shoot opponents with paint.",
+    category: "ACTIVITY",
+    pointValue: 4,
+  },
+  {
+    name: "A Trip to the Zoo",
+    description:
+      "The educational outing to see exotic animals and eat overpriced snacks.",
+    category: "ACTIVITY",
+    pointValue: 2,
+  },
+  {
+    name: "A Farmers’ Market Visit",
+    description:
+      "The relaxing activity of browsing fresh produce and artisan goods.",
+    category: "ACTIVITY",
+    pointValue: 2,
+  },
+  {
+    name: "Playing Hide-and-Seek",
+    description: "The classic game of sneaking and finding friends.",
+    category: "ACTIVITY",
+    pointValue: 2,
+  },
+  {
+    name: "Stargazing",
+    description:
+      "The peaceful activity of looking at constellations and shooting stars.",
+    category: "ACTIVITY",
+    pointValue: 2,
+  },
+  {
+    name: "Building a Sandcastle",
+    description:
+      "The fun beach activity of sculpting towers and moats from sand.",
+    category: "ACTIVITY",
+    pointValue: 2,
+  },
+  {
+    name: "A Cooking Competition",
+    description:
+      "The intense activity where you race to whip up the best dish.",
+    category: "ACTIVITY",
+    pointValue: 4,
+  },
+  {
+    name: "A Water Balloon Fight",
+    description:
+      "The playful activity of throwing water-filled balloons at friends.",
+    category: "ACTIVITY",
+    pointValue: 2,
+  },
+  {
+    name: "A Skateboarding Session",
+    description:
+      "The cool activity of cruising or performing tricks on a board.",
+    category: "ACTIVITY",
+    pointValue: 3,
   },
 ];
 /* eslint-disable */
