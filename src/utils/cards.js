@@ -885,13 +885,6 @@ module.exports = [
     pointValue: 2,
   },
   {
-    name: "Goatse",
-    description:
-      "A shock site linking unsuspecting victims to the file hello.jpg, an image of a naked man stretching his anus several inches in diameter. The man's wedding band is clearly visible on his left ring finger. The site used the rare top-level domain for the Christmas Islands .cx.",
-    category: "CELEBRITY",
-    pointValue: 4,
-  },
-  {
     name: "A Bleeder",
     description:
       "A person who loses blood quickly because of a lower than average clotting rate. otherwise known as a hemophiliac. This term was made famous in the 1998 comedy There‘s Something About Mary, where Ben Stiller's character Ted damages his genitals with a zipper.",
@@ -1251,9 +1244,8 @@ module.exports = [
   },
   {
     name: "A Gerbil",
-    description:
-      "A small rodent often kept as a pet. Numerous urban legends exist involving this animal and various celebrity anuses.",
-    category: "ET CETERA",
+    description: "A small rodent often kept as a pet.",
+    category: "ANIMALS",
     pointValue: 2,
   },
   {
@@ -1738,7 +1730,7 @@ module.exports = [
     name: "Charizard",
     description:
       "A species of Pokémon that resembles an orange dragon and is the evolved form of Charmeleon and the final evolution of Charmander. Despite its appearance, it is a fire/flying type, NOT a dragon type. Its Japanese name is Lizardon (U'lf — F7).",
-    category: "FICTIONAL CHARACTER",
+    category: "POKÉMON",
     pointValue: 4,
   },
   {
@@ -1853,13 +1845,6 @@ module.exports = [
       "The title character of an 805 sci-fi film about a cyborg policeman who is tasked by the evil Omni Consumer Products megacorporation to protect Detroit. In 2011, a group raised $67,436 on the crowdfunding site Kickstarter to create a 7 foot tall bronze statue of the character.",
     category: "FICTIONAL CHARACTER",
     pointValue: 2,
-  },
-  {
-    name: "Tubgirl",
-    description:
-      "A shock image depicting a naked, masked woman lying on her back in the bath. with a fountain of yellowish-orange liquid surging from her anus onto her face, supposedly the result of an orange juice enema. The image was often alleged to be popular in Japan.",
-    category: "CELEBRITY",
-    pointValue: 4,
   },
   {
     name: "A Mormon",
@@ -1991,7 +1976,7 @@ module.exports = [
     name: "A Pug",
     description:
       "dog breed. Generations of inbreeding have led to compact breathing passages that leave them unable to regulate their body temperature by panting. Many airlines have restricted their transport due to in-air deaths.",
-    category: "CET CETERA",
+    category: "ANIMALS",
     pointValue: 2,
   },
   {
@@ -2343,13 +2328,6 @@ module.exports = [
     description:
       "An idiom for an extremely enthusiastic or hard working person that supposedly originated among Canadian soldiers in World War II. The term derives from the aquatic, dam-building rodents, who terraformed much of North America with their wooden tructures.",
     category: "ET CETERA",
-    pointValue: 3,
-  },
-  {
-    name: "Dick Armey",
-    description:
-      "Texas who was an important part of the Republican Revolution of the 90s and one of the co—creators of the infamous Contract with America. But for the purposes of this game, he really just has a very funny name.",
-    category: "CELEBRITY",
     pointValue: 3,
   },
   {
@@ -2803,7 +2781,7 @@ module.exports = [
   {
     name: "Dick Cheney’s pacemaker",
     description:
-      "The device regulating the heart rhythms of the 46th Vice President of the US, who was infamous for expanding the powers of his office as well as shooting his best friend in the face. He had its wireless services disabled to prevent terrorists from  potentially interfering with it.",
+      "The device regulating the heart rhythms of the 46th Vice President of the US, who was infamous for expanding the powers of his office as well as shooting his best friend in the face. He had its wireless services disabled to prevent terrorists from potentially interfering with it.",
     category: "HISTORICAL FIGURE",
     pointValue: 3,
   },
@@ -3661,13 +3639,6 @@ module.exports = [
     pointValue: 4,
   },
   {
-    name: "The Official Fleshlight",
-    description:
-      'A sex toy created by Interactive Life Forms LLC. The artifical vagina product was created to look like an oversized flashlight, and is offered in several colors (including limited edition "Avatar" blue), and is available in three orifices: vulva, anus, and mouth.',
-    category: "ET CETERA",
-    pointValue: 2,
-  },
-  {
     name: "Wilma Mankiller",
     description:
       "The first woman to be elected chief of the Cherokee Nation. In 2015, she was one of four finalists to replace Andrew Jackson on the U.S. $20 bill. The other finalists were more familiar household names: Eleanor Roosevelt, Harriet Tubman, and Rosa Parks.",
@@ -3993,7 +3964,7 @@ module.exports = [
     name: "Jigglypuff",
     description:
       "A pink, gelatinous Pokémon with big blue eyes and a cute little tuft of hair. It uses its eyes to hypnotize opponents, then puts them to sleep with a lullaby. It evolves from Igglybuff (with high friendship) and evolves to Wigglytuff (when exposed to a Moon Stone).",
-    category: "FICTIONAL CHARACTER",
+    category: "POKÉMON",
     pointValue: 1,
   },
   {
@@ -4535,13 +4506,6 @@ module.exports = [
     pointValue: 3,
   },
   {
-    name: "A bag of dicks",
-    description:
-      "A container filled with male sex organs. The term was invented by Louis CK, who wondered whether the itme is \"like a plastic [container] and they're all mushed together like chicken parts...or is it like a paper [container] and they're sticking out like baguettes?\"",
-    category: "ET CETERA",
-    pointValue: 3,
-  },
-  {
     name: "A butterfly fuck-swing",
     description:
       'A harness used in sexual intercourse where one partner is suspended by the device while another remains free-standing. Most include separate support for the back and buttocks, plus stirrups for each leg. A 2016 article in The Onion describes one couple\'s as "filled with junk mail."',
@@ -4594,7 +4558,7 @@ module.exports = [
     name: "Squirtle",
     description:
       "A water-type species of Pokémon that resembles a blue turtle with a curly tail — and one of the 3 starter Pokémon from the original games. At level 16, it evolves into Wartortle, and at level 36, evolves into its final form, Blastoise. Its Japanese name is Zenigame.",
-    category: "FICTIONAL CHARACTER",
+    category: "POKÉMON",
     pointValue: 2,
   },
   {
@@ -5005,7 +4969,7 @@ module.exports = [
   {
     name: "Pikachu",
     description: "The electric mouse that powers Pokémon’s success.",
-    category: "FICTIONAL CHARACTER",
+    category: "POKÉMON",
     pointValue: 2,
   },
   {
@@ -5111,7 +5075,7 @@ module.exports = [
     name: "Hogwarts",
     description:
       "The magical school you wish you could attend, minus the yearly disasters.",
-    category: "FICTIONAL LOCATION",
+    category: "LOCATION",
     pointValue: 2,
   },
   {
@@ -5406,19 +5370,19 @@ module.exports = [
   {
     name: "Wakanda",
     description: "The fictional, advanced African nation from Black Panther.",
-    category: "FICTIONAL LOCATION",
+    category: "LOCATION",
     pointValue: 3,
   },
   {
     name: "Hyrule",
     description: "The kingdom where Link battles Ganon and saves Zelda.",
-    category: "FICTIONAL LOCATION",
+    category: "LOCATION",
     pointValue: 3,
   },
   {
     name: "The Upside Down",
     description: "The creepy alternate dimension from Stranger Things.",
-    category: "FICTIONAL LOCATION",
+    category: "LOCATION",
     pointValue: 3,
   },
   {
@@ -5486,43 +5450,43 @@ module.exports = [
   {
     name: "Central Park",
     description: "The sprawling urban park in New York City.",
-    category: "TRAVEL",
+    category: "LOCATION",
     pointValue: 3,
   },
   {
     name: "The Eiffel Tower",
     description: "The iconic iron landmark in Paris, France.",
-    category: "TRAVEL",
+    category: "LOCATION",
     pointValue: 3,
   },
   {
     name: "The Grand Canyon",
     description: "The vast, breathtaking natural wonder in the United States.",
-    category: "TRAVEL",
+    category: "LOCATION",
     pointValue: 4,
   },
   {
     name: "The Great Barrier Reef",
     description: "The colorful coral reef system off Australia’s coast.",
-    category: "TRAVEL",
+    category: "LOCATION",
     pointValue: 4,
   },
   {
     name: "Machu Picchu",
     description: "The ancient Incan citadel high in the Andes Mountains.",
-    category: "TRAVEL",
+    category: "LOCATION",
     pointValue: 4,
   },
   {
     name: "A Hot Air Balloon",
     description: "The serene and scenic way to see the world from above.",
-    category: "TRAVEL",
+    category: "LOCATION",
     pointValue: 3,
   },
   {
     name: "The Northern Lights",
     description: "The dazzling natural light display in the Arctic skies.",
-    category: "TRAVEL",
+    category: "LOCATION",
     pointValue: 4,
   },
   {
@@ -5567,6 +5531,275 @@ module.exports = [
     name: "A Protest March",
     description: "The powerful demonstration for change and justice.",
     category: "EVENT",
+    pointValue: 4,
+  },
+  {
+    name: "A Karaoke Night",
+    description:
+      "The fun activity where everyone pretends they’re Beyoncé for 3 minutes.",
+    category: "ACTIVITY",
+    pointValue: 3,
+  },
+  {
+    name: "A Road Trip",
+    description:
+      "The journey that’s more about snacks and playlists than the destination.",
+    category: "ACTIVITY",
+    pointValue: 3,
+  },
+  {
+    name: "A Camping Trip",
+    description:
+      "The outdoor adventure filled with tents, s’mores, and mosquito bites.",
+    category: "ACTIVITY",
+    pointValue: 3,
+  },
+  {
+    name: "A Paint and Sip Night",
+    description: "The relaxing event where art and wine flow freely.",
+    category: "ACTIVITY",
+    pointValue: 3,
+  },
+  {
+    name: "A 5K Charity Run",
+    description: "The feel-good race where you jog for a cause.",
+    category: "ACTIVITY",
+    pointValue: 2,
+  },
+  {
+    name: "A Movie Marathon",
+    description: "The binge-watch session that makes you lose track of time.",
+    category: "ACTIVITY",
+    pointValue: 2,
+  },
+  {
+    name: "A Scavenger Hunt",
+    description:
+      "The event where you race to solve clues and find hidden treasures.",
+    category: "ACTIVITY",
+    pointValue: 3,
+  },
+  {
+    name: "A Cooking Class",
+    description:
+      "The hands-on experience that teaches you to make fancy dishes—or fail spectacularly.",
+    category: "ACTIVITY",
+    pointValue: 3,
+  },
+  {
+    name: "A Dance Class",
+    description: "The fun session where you learn to groove like a pro.",
+    category: "ACTIVITY",
+    pointValue: 2,
+  },
+  {
+    name: "A Trivia Night",
+    description: "The event where random knowledge wins free drinks.",
+    category: "ACTIVITY",
+    pointValue: 3,
+  },
+  {
+    name: "A New Year’s Eve Party",
+    description: "The celebration filled with countdowns and champagne.",
+    category: "EVENT",
+    pointValue: 3,
+  },
+  {
+    name: "A Birthday Party",
+    description: "The classic celebration with cake, balloons, and singing.",
+    category: "EVENT",
+    pointValue: 2,
+  },
+  {
+    name: "A Graduation Ceremony",
+    description: "The event where caps fly and parents cry.",
+    category: "EVENT",
+    pointValue: 3,
+  },
+  {
+    name: "A Music Festival",
+    description:
+      "The multi-day event with live bands, food trucks, and mud pits.",
+    category: "EVENT",
+    pointValue: 3,
+  },
+  {
+    name: "An Awards Show",
+    description:
+      "The glamorous night where stars thank their moms and the Academy.",
+    category: "EVENT",
+    pointValue: 3,
+  },
+  {
+    name: "A Wedding",
+    description: "The beautiful occasion with vows, cake, and a drunk uncle.",
+    category: "EVENT",
+    pointValue: 3,
+  },
+  {
+    name: "A Halloween Party",
+    description: "The spooky celebration filled with costumes and candy.",
+    category: "EVENT",
+    pointValue: 3,
+  },
+  {
+    name: "A Surprise Party",
+    description:
+      "The event where the guest of honor pretends they’re surprised.",
+    category: "EVENT",
+    pointValue: 3,
+  },
+  {
+    name: "A Super Bowl Party",
+    description:
+      "The event that’s half about football and half about snacks and commercials.",
+    category: "EVENT",
+    pointValue: 3,
+  },
+  {
+    name: "A Comic-Con",
+    description:
+      "The event where fans dress up as their favorite characters and geek out together.",
+    category: "EVENT",
+    pointValue: 4,
+  },
+  {
+    name: "Titanic",
+    description:
+      "The tragic love story aboard the ill-fated ship, with an unforgettable door scene.",
+    category: "MOVIES",
+    pointValue: 3,
+  },
+  {
+    name: "The Godfather",
+    description:
+      "The iconic mafia movie that made us an offer we couldn’t refuse.",
+    category: "MOVIES",
+    pointValue: 4,
+  },
+  {
+    name: "Forrest Gump",
+    description:
+      "The heartfelt tale of a man with a simple outlook on life and some iconic quotes.",
+    category: "MOVIES",
+    pointValue: 3,
+  },
+  {
+    name: "Jurassic Park",
+    description:
+      "The groundbreaking film where dinosaurs are brought back to life—with terrifying results.",
+    category: "MOVIES",
+    pointValue: 3,
+  },
+  {
+    name: "The Dark Knight",
+    description:
+      "The Batman movie that redefined superhero films with Heath Ledger’s Joker.",
+    category: "MOVIES",
+    pointValue: 4,
+  },
+  {
+    name: "Inception",
+    description:
+      "The mind-bending heist movie that leaves you questioning reality.",
+    category: "MOVIES",
+    pointValue: 4,
+  },
+  {
+    name: "Mean Girls",
+    description:
+      "The teen comedy about cliques, burn books, and why 'On Wednesdays, we wear pink.'",
+    category: "MOVIES",
+    pointValue: 3,
+  },
+  {
+    name: "Frozen",
+    description:
+      "The Disney musical phenomenon that made 'Let It Go' unforgettable.",
+    category: "MOVIES",
+    pointValue: 2,
+  },
+  {
+    name: "The Avengers",
+    description:
+      "The superhero team-up movie that brought Earth’s Mightiest Heroes together.",
+    category: "MOVIES",
+    pointValue: 3,
+  },
+  {
+    name: "Star Wars: A New Hope",
+    description:
+      "The movie that started the epic space saga with Jedi, droids, and a galaxy far, far away.",
+    category: "MOVIES",
+    pointValue: 4,
+  },
+  {
+    name: "Back to the Future",
+    description: "The time-traveling adventure with Marty McFly and Doc Brown.",
+    category: "MOVIES",
+    pointValue: 3,
+  },
+  {
+    name: "The Lion King",
+    description:
+      "The Disney animated classic about Simba, the circle of life, and heartbreak.",
+    category: "MOVIES",
+    pointValue: 2,
+  },
+  {
+    name: "Pulp Fiction",
+    description:
+      "Quentin Tarantino’s nonlinear masterpiece full of iconic dialogue and moments.",
+    category: "MOVIES",
+    pointValue: 4,
+  },
+  {
+    name: "The Matrix",
+    description:
+      "The sci-fi classic that introduced bullet time and red pill vs. blue pill.",
+    category: "MOVIES",
+    pointValue: 4,
+  },
+  {
+    name: "Harry Potter and the Sorcerer’s Stone",
+    description:
+      "The magical adventure where Harry learns he’s a wizard and starts his journey.",
+    category: "MOVIES",
+    pointValue: 3,
+  },
+  {
+    name: "Shrek",
+    description:
+      "The animated fairy tale parody with a lovable ogre, a talking donkey, and endless memes.",
+    category: "MOVIES",
+    pointValue: 3,
+  },
+  {
+    name: "Toy Story",
+    description:
+      "The Pixar film that brought toys to life with Buzz Lightyear and Woody.",
+    category: "MOVIES",
+    pointValue: 2,
+  },
+  {
+    name: "The Hunger Games",
+    description:
+      "The dystopian thriller where Katniss Everdeen fights for survival and freedom.",
+    category: "MOVIES",
+    pointValue: 3,
+  },
+  {
+    name: "The Greatest Showman",
+    description:
+      "The musical about P.T. Barnum’s circus, with a soundtrack that took over the charts.",
+    category: "MOVIES",
+    pointValue: 3,
+  },
+  {
+    name: "Get Out",
+    description:
+      "The psychological thriller that redefined horror and social commentary.",
+    category: "MOVIES",
     pointValue: 4,
   },
 ];

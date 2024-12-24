@@ -237,7 +237,7 @@ button:hover {
   color: #333;
 }
 
-.game-round .card-list{
+.game-round .card-list {
   grid-template-columns: repeat(1, 1fr);
 }
 
@@ -500,23 +500,69 @@ button:nth-child(2):hover {
 }
 
 /* Category-Specific Colors */
+/* Category-Specific Colors */
 .card-category.celebrity {
-  background-color: #fdd835;
+  background-color: #fdd835; /* Yellow */
   color: #333;
 }
 
 .card-category.fictional-character {
-  background-color: #03a9f4;
+  background-color: #03a9f4; /* Blue */
+  color: white;
+}
+
+.card-category.fictional-item {
+  background-color: #607d8b; /* Slate Gray */
   color: white;
 }
 
 .card-category.et-cetera {
-  background-color: #8bc34a;
+  background-color: #8bc34a; /* Green */
   color: white;
 }
 
 .card-category.historical-figure {
-  background-color: #ff9800;
+  background-color: #ff9800; /* Orange */
+  color: white;
+}
+
+.card-category.event {
+  background-color: #ff4081; /* Pink */
+  color: white;
+}
+
+.card-category.activity {
+  background-color: #9c27b0; /* Purple */
+  color: white;
+}
+
+.card-category.food {
+  background-color: #ea9075; /* Red-Orange */
+  color: white;
+}
+
+.card-category.location {
+  background-color: #02531e; /* Golden Yellow */
+  color: white;
+}
+
+.card-category.pokemon {
+  background-color: #4caf50; /* Lime Green */
+  color: white;
+}
+
+.card-category.technology {
+  background-color: #062f51; /* Bright Blue */
+  color: white;
+}
+
+.card-category.animals {
+  background-color: #ffc107; /* Golden Yellow */
+  color: #333;
+}
+
+.card-category.movies {
+  background-color: #522c42; /* Golden Yellow */
   color: white;
 }
 
