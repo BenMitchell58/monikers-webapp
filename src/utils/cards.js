@@ -5055,20 +5055,20 @@ module.exports = [
   {
     name: "Netflix’s Stranger Things",
     description: "The show that made the 80s cool again and brought us Eleven.",
-    category: "TV SHOW",
+    category: "MEDIA",
     pointValue: 3,
   },
   {
     name: "Squid Game",
     description: "The dystopian South Korean drama that captivated the world.",
-    category: "TV SHOW",
+    category: "MEDIA",
     pointValue: 3,
   },
   {
     name: "Rick and Morty",
     description:
       "The chaotic duo exploring the multiverse with existential crises.",
-    category: "TV SHOW",
+    category: "MEDIA",
     pointValue: 3,
   },
   {
@@ -5081,7 +5081,7 @@ module.exports = [
   {
     name: "The Marvel Cinematic Universe",
     description: "The blockbuster franchise that has taken over Hollywood.",
-    category: "MOVIES",
+    category: "MEDIA",
     pointValue: 3,
   },
   {
@@ -5126,7 +5126,7 @@ module.exports = [
     name: "Succession",
     description:
       "The TV drama where rich people fight for control and everyone’s awful.",
-    category: "TV SHOW",
+    category: "MEDIA",
     pointValue: 3,
   },
   {
@@ -5213,7 +5213,7 @@ module.exports = [
     name: "Netflix’s The Witcher",
     description:
       "The fantasy series starring Henry Cavill as a monster-hunting grump.",
-    category: "TV SHOW",
+    category: "MEDIA",
     pointValue: 3,
   },
   {
@@ -5667,139 +5667,139 @@ module.exports = [
     name: "Titanic",
     description:
       "The tragic love story aboard the ill-fated ship, with an unforgettable door scene.",
-    category: "MOVIES",
+    category: "MEDIA",
     pointValue: 3,
   },
   {
     name: "The Godfather",
     description:
       "The iconic mafia movie that made us an offer we couldn’t refuse.",
-    category: "MOVIES",
+    category: "MEDIA",
     pointValue: 4,
   },
   {
     name: "Forrest Gump",
     description:
       "The heartfelt tale of a man with a simple outlook on life and some iconic quotes.",
-    category: "MOVIES",
+    category: "MEDIA",
     pointValue: 3,
   },
   {
     name: "Jurassic Park",
     description:
       "The groundbreaking film where dinosaurs are brought back to life—with terrifying results.",
-    category: "MOVIES",
+    category: "MEDIA",
     pointValue: 3,
   },
   {
     name: "The Dark Knight",
     description:
       "The Batman movie that redefined superhero films with Heath Ledger’s Joker.",
-    category: "MOVIES",
+    category: "MEDIA",
     pointValue: 4,
   },
   {
     name: "Inception",
     description:
       "The mind-bending heist movie that leaves you questioning reality.",
-    category: "MOVIES",
+    category: "MEDIA",
     pointValue: 4,
   },
   {
     name: "Mean Girls",
     description:
       "The teen comedy about cliques, burn books, and why 'On Wednesdays, we wear pink.'",
-    category: "MOVIES",
+    category: "MEDIA",
     pointValue: 3,
   },
   {
     name: "Frozen",
     description:
       "The Disney musical phenomenon that made 'Let It Go' unforgettable.",
-    category: "MOVIES",
+    category: "MEDIA",
     pointValue: 2,
   },
   {
     name: "The Avengers",
     description:
       "The superhero team-up movie that brought Earth’s Mightiest Heroes together.",
-    category: "MOVIES",
+    category: "MEDIA",
     pointValue: 3,
   },
   {
     name: "Star Wars: A New Hope",
     description:
       "The movie that started the epic space saga with Jedi, droids, and a galaxy far, far away.",
-    category: "MOVIES",
+    category: "MEDIA",
     pointValue: 4,
   },
   {
     name: "Back to the Future",
     description: "The time-traveling adventure with Marty McFly and Doc Brown.",
-    category: "MOVIES",
+    category: "MEDIA",
     pointValue: 3,
   },
   {
     name: "The Lion King",
     description:
       "The Disney animated classic about Simba, the circle of life, and heartbreak.",
-    category: "MOVIES",
+    category: "MEDIA",
     pointValue: 2,
   },
   {
     name: "Pulp Fiction",
     description:
       "Quentin Tarantino’s nonlinear masterpiece full of iconic dialogue and moments.",
-    category: "MOVIES",
+    category: "MEDIA",
     pointValue: 4,
   },
   {
     name: "The Matrix",
     description:
       "The sci-fi classic that introduced bullet time and red pill vs. blue pill.",
-    category: "MOVIES",
+    category: "MEDIA",
     pointValue: 4,
   },
   {
     name: "Harry Potter and the Sorcerer’s Stone",
     description:
       "The magical adventure where Harry learns he’s a wizard and starts his journey.",
-    category: "MOVIES",
+    category: "MEDIA",
     pointValue: 3,
   },
   {
     name: "Shrek",
     description:
       "The animated fairy tale parody with a lovable ogre, a talking donkey, and endless memes.",
-    category: "MOVIES",
+    category: "MEDIA",
     pointValue: 3,
   },
   {
     name: "Toy Story",
     description:
       "The Pixar film that brought toys to life with Buzz Lightyear and Woody.",
-    category: "MOVIES",
+    category: "MEDIA",
     pointValue: 2,
   },
   {
     name: "The Hunger Games",
     description:
       "The dystopian thriller where Katniss Everdeen fights for survival and freedom.",
-    category: "MOVIES",
+    category: "MEDIA",
     pointValue: 3,
   },
   {
     name: "The Greatest Showman",
     description:
       "The musical about P.T. Barnum’s circus, with a soundtrack that took over the charts.",
-    category: "MOVIES",
+    category: "MEDIA",
     pointValue: 3,
   },
   {
     name: "Get Out",
     description:
       "The psychological thriller that redefined horror and social commentary.",
-    category: "MOVIES",
+    category: "MEDIA",
     pointValue: 4,
   },
   {

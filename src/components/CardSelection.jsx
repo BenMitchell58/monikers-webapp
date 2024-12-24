@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useMemo, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { useGameContext } from "../context/GameContext";
 import { DEFAULT_SETTINGS } from "../consts/config";
@@ -22,7 +22,8 @@ const CardSelection = () => {
   const [currentPlayer, setCurrentPlayer] = useState(0);
   const [selectedCards, setSelectedCards] = useState([]);
   const [usedCards, setUsedCards] = useState([]); // Tracks already selected cards
-  const [randomCards, setRandomCards] = useState(generateRandomCards([]));
+  const initialCards = useMemo(() => generateRandomCards([]), []);
+  const [randomCards, setRandomCards] = useState(initialCards);
 
   const navigate = useNavigate();
 
@@ -41,10 +42,19 @@ const CardSelection = () => {
     const availableCards = cards.filter(
       (card) => !excludedCards.includes(card)
     );
-    console.log(availableCards);
-    const shuffled = [...availableCards].sort(() => 0.5 - Math.random());
-    console.log(shuffled);
-    return shuffled.slice(0, mql.matches ? 3 : 10); // Always return 10 cards
+
+    // Fisher-Yates Shuffle Algorithm
+    const shuffled = [...availableCards];
+    for (let i = shuffled.length - 1; i > 0; i--) {
+      const randomIndex = Math.floor(Math.random() * (i + 1));
+      [shuffled[i], shuffled[randomIndex]] = [
+        shuffled[randomIndex],
+        shuffled[i],
+      ];
+    }
+
+    // Return 3 cards for small screens, 10 for larger screens
+    return shuffled.slice(0, mql.matches ? 3 : 10);
   }
 
   const refreshCards = () => {

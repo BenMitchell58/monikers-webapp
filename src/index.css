@@ -546,7 +546,7 @@ button:nth-child(2):hover {
   color: white;
 }
 
-.card-category.pokemon {
+.card-category.pokémon {
   background-color: #4caf50; /* Lime Green */
   color: white;
 }
@@ -561,7 +561,7 @@ button:nth-child(2):hover {
   color: #333;
 }
 
-.card-category.movies {
+.card-category.media {
   background-color: #522c42; /* Golden Yellow */
   color: white;
 }
