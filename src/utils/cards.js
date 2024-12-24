@@ -4800,5 +4800,774 @@ module.exports = [
     category: "ET CETERA",
     pointValue: 4,
   },
+  {
+    name: "Zendaya",
+    description:
+      "A multitalented actress, singer, and dancer known for her roles in Euphoria and Spider-Man.",
+    category: "CELEBRITY",
+    pointValue: 3,
+  },
+  {
+    name: "Harry Styles",
+    description:
+      "A singer and actor famous for his career in One Direction and solo hits like 'Watermelon Sugar.'",
+    category: "CELEBRITY",
+    pointValue: 3,
+  },
+  {
+    name: "Elon Musk's X Account",
+    description:
+      "The notorious Twitter account of Tesla's CEO, known for chaos and meme stock manipulation.",
+    category: "CELEBRITY",
+    pointValue: 4,
+  },
+  {
+    name: "Dwayne 'The Rock' Johnson",
+    description:
+      "An actor and former wrestler known for his charismatic personality and love of pancakes.",
+    category: "CELEBRITY",
+    pointValue: 2,
+  },
+  {
+    name: "Taylor Swift's Scarf",
+    description:
+      "The infamous piece of knitwear rumored to have inspired her song 'All Too Well.'",
+    category: "CELEBRITY",
+    pointValue: 3,
+  },
+  {
+    name: "Timothée Chalamet",
+    description:
+      "An actor known for his roles in Dune, Little Women, and his hair-flipping skills.",
+    category: "CELEBRITY",
+    pointValue: 2,
+  },
+  {
+    name: "Pedro Pascal",
+    description:
+      "The 'Internet Daddy' known for The Mandalorian and The Last of Us.",
+    category: "CELEBRITY",
+    pointValue: 3,
+  },
+  {
+    name: "Joe Exotic (Tiger King)",
+    description:
+      "The star of Netflix’s documentary, known for his tigers and chaotic drama.",
+    category: "CELEBRITY",
+    pointValue: 3,
+  },
+  {
+    name: "MrBeast",
+    description:
+      "A YouTuber famous for giving away absurd amounts of money in elaborate challenges.",
+    category: "CELEBRITY",
+    pointValue: 3,
+  },
+  {
+    name: "Greta Thunberg",
+    description:
+      "A young environmental activist who demands urgent climate action.",
+    category: "HISTORICAL FIGURE",
+    pointValue: 3,
+  },
+  {
+    name: "Barbenheimer",
+    description:
+      "The cultural phenomenon of Barbie and Oppenheimer being released on the same day.",
+    category: "ET CETERA",
+    pointValue: 4,
+  },
+  {
+    name: "Wednesday Addams",
+    description: "The deadpan teen goth from Netflix’s Wednesday.",
+    category: "FICTIONAL CHARACTER",
+    pointValue: 2,
+  },
+  {
+    name: "Baby Yoda (Grogu)",
+    description: "The adorable, Force-wielding child from The Mandalorian.",
+    category: "FICTIONAL CHARACTER",
+    pointValue: 2,
+  },
+  {
+    name: "Miles Morales (Spider-Verse)",
+    description: "The Brooklyn-based Spider-Man from the animated multiverse.",
+    category: "FICTIONAL CHARACTER",
+    pointValue: 3,
+  },
+  {
+    name: "Shrek's Swamp",
+    description: "The iconic ogre’s home, filled with sass and ogre strength.",
+    category: "FICTIONAL CHARACTER",
+    pointValue: 2,
+  },
+  {
+    name: "ChatGPT",
+    description:
+      "An AI chatbot that writes your essays and sometimes tries to take over humanity.",
+    category: "ET CETERA",
+    pointValue: 3,
+  },
+  {
+    name: "A TikTok Dance",
+    description:
+      "A short, catchy routine that takes over everyone’s For You page.",
+    category: "ET CETERA",
+    pointValue: 2,
+  },
+  {
+    name: "BeReal Notification",
+    description: "The daily prompt to share an unfiltered photo of your life.",
+    category: "ET CETERA",
+    pointValue: 3,
+  },
+  {
+    name: "Zoom Fatigue",
+    description:
+      "That overwhelming feeling from staring at video calls for hours.",
+    category: "ET CETERA",
+    pointValue: 3,
+  },
+  {
+    name: "An NFT Bro",
+    description: "A person who won’t stop talking about 'owning' a JPEG.",
+    category: "ET CETERA",
+    pointValue: 3,
+  },
+  {
+    name: "Pumpkin Spice Latte",
+    description: "A seasonal drink that screams 'basic fall vibes.'",
+    category: "ET CETERA",
+    pointValue: 2,
+  },
+  {
+    name: "Avocado Toast",
+    description: "A millennial breakfast that supposedly ruined homeownership.",
+    category: "ET CETERA",
+    pointValue: 2,
+  },
+  {
+    name: "A Charcuterie Board",
+    description: "The fanciest way to eat cheese and crackers.",
+    category: "ET CETERA",
+    pointValue: 3,
+  },
+  {
+    name: "Boba Tea",
+    description: "A bubble-filled drink you either love or don’t understand.",
+    category: "ET CETERA",
+    pointValue: 2,
+  },
+  {
+    name: "Hot Ones",
+    description: "The YouTube show where celebs cry while eating spicy wings.",
+    category: "CELEBRITY",
+    pointValue: 3,
+  },
+  {
+    name: "Bali",
+    description: "The dream vacation spot for digital nomads and influencers.",
+    category: "ET CETERA",
+    pointValue: 3,
+  },
+  {
+    name: "Santorini",
+    description: "The picturesque Greek island with whitewashed buildings.",
+    category: "ET CETERA",
+    pointValue: 3,
+  },
+  {
+    name: "Dubai",
+    description:
+      "A desert city known for skyscrapers, shopping malls, and absurd luxury.",
+    category: "ET CETERA",
+    pointValue: 3,
+  },
+  {
+    name: "Mount Everest Base Camp",
+    description:
+      "The starting point for ambitious climbers—and selfie enthusiasts.",
+    category: "ET CETERA",
+    pointValue: 4,
+  },
+  {
+    name: "Tokyo Disneyland",
+    description: "The Japanese park where Mickey meets manga.",
+    category: "ET CETERA",
+    pointValue: 3,
+  },
+  {
+    name: "Among Us Crewmate",
+    description: "The sussy little bean-shaped character from the hit game.",
+    category: "FICTIONAL CHARACTER",
+    pointValue: 2,
+  },
+  {
+    name: "Pikachu",
+    description: "The electric mouse that powers Pokémon’s success.",
+    category: "FICTIONAL CHARACTER",
+    pointValue: 2,
+  },
+  {
+    name: "The Master Sword",
+    description: "Link’s legendary blade from The Legend of Zelda series.",
+    category: "FICTIONAL CHARACTER",
+    pointValue: 3,
+  },
+  {
+    name: "Minecraft Steve",
+    description: "The blocky protagonist of the best-selling video game.",
+    category: "FICTIONAL CHARACTER",
+    pointValue: 2,
+  },
+  {
+    name: "An Animal Crossing Island",
+    description:
+      "A perfect, idyllic virtual escape where you owe Tom Nook a fortune.",
+    category: "FICTIONAL CHARACTER",
+    pointValue: 3,
+  },
+  {
+    name: "The iPhone",
+    description:
+      "The smartphone that changed everything and drains your bank account.",
+    category: "TECHNOLOGY",
+    pointValue: 2,
+  },
+  {
+    name: "Spotify Wrapped",
+    description:
+      "The yearly music summary that makes you realize you listened to too much Taylor Swift.",
+    category: "ET CETERA",
+    pointValue: 3,
+  },
+  {
+    name: "Crocs",
+    description:
+      "Ugly yet comfortable shoes that have made a massive comeback.",
+    category: "FASHION",
+    pointValue: 2,
+  },
+  {
+    name: "Birkenstocks",
+    description: "Trendy sandals that scream 'I’m comfy and sustainable.'",
+    category: "FASHION",
+    pointValue: 2,
+  },
+  {
+    name: "Netflix Password Sharing",
+    description: "The once-free feature now responsible for family drama.",
+    category: "TECHNOLOGY",
+    pointValue: 3,
+  },
+  {
+    name: "The Kardashian Family",
+    description:
+      "Famous for being famous and turning drama into a billion-dollar empire.",
+    category: "CELEBRITY",
+    pointValue: 3,
+  },
+  {
+    name: "Billie Eilish",
+    description:
+      "The singer who brought oversized clothing and whispery vocals to the mainstream.",
+    category: "CELEBRITY",
+    pointValue: 2,
+  },
+  {
+    name: "Airbnb",
+    description:
+      "The app that turns every house into a questionable vacation rental.",
+    category: "TECHNOLOGY",
+    pointValue: 2,
+  },
+  {
+    name: "AI Art",
+    description:
+      "Creative images generated by machines—and lots of controversy.",
+    category: "TECHNOLOGY",
+    pointValue: 4,
+  },
+  {
+    name: "Netflix’s Stranger Things",
+    description: "The show that made the 80s cool again and brought us Eleven.",
+    category: "TV SHOW",
+    pointValue: 3,
+  },
+  {
+    name: "Squid Game",
+    description: "The dystopian South Korean drama that captivated the world.",
+    category: "TV SHOW",
+    pointValue: 3,
+  },
+  {
+    name: "Rick and Morty",
+    description:
+      "The chaotic duo exploring the multiverse with existential crises.",
+    category: "TV SHOW",
+    pointValue: 3,
+  },
+  {
+    name: "Hogwarts",
+    description:
+      "The magical school you wish you could attend, minus the yearly disasters.",
+    category: "FICTIONAL LOCATION",
+    pointValue: 2,
+  },
+  {
+    name: "The Marvel Cinematic Universe",
+    description: "The blockbuster franchise that has taken over Hollywood.",
+    category: "MOVIES",
+    pointValue: 3,
+  },
+  {
+    name: "Thanos’ Snap",
+    description: "The finger snap that wiped out half the universe.",
+    category: "FICTIONAL EVENT",
+    pointValue: 3,
+  },
+  {
+    name: "The Bat-Signal",
+    description: "The shining beacon calling Batman to save Gotham City.",
+    category: "FICTIONAL ITEM",
+    pointValue: 2,
+  },
+  {
+    name: "A Ring Light",
+    description: "The essential accessory for every influencer and Zoom call.",
+    category: "TECHNOLOGY",
+    pointValue: 2,
+  },
+  {
+    name: "A Hydro Flask",
+    description: "The water bottle that keeps you hydrated and trendy.",
+    category: "ET CETERA",
+    pointValue: 2,
+  },
+  {
+    name: "Kylie Jenner's Lip Kits",
+    description:
+      "The makeup line that launched a billion-dollar beauty empire.",
+    category: "CELEBRITY",
+    pointValue: 3,
+  },
+  {
+    name: "Astrology Memes",
+    description:
+      "The memes that explain your toxic traits through zodiac signs.",
+    category: "ET CETERA",
+    pointValue: 2,
+  },
+  {
+    name: "Succession",
+    description:
+      "The TV drama where rich people fight for control and everyone’s awful.",
+    category: "TV SHOW",
+    pointValue: 3,
+  },
+  {
+    name: "Coachella",
+    description:
+      "The annual music festival known for flower crowns and influencer outfits.",
+    category: "ET CETERA",
+    pointValue: 3,
+  },
+  {
+    name: "ASMR Videos",
+    description:
+      "The oddly satisfying videos of people whispering and tapping objects.",
+    category: "ET CETERA",
+    pointValue: 2,
+  },
+  {
+    name: "Velma from Scooby-Doo",
+    description: "The brains of the Mystery Gang with iconic orange glasses.",
+    category: "FICTIONAL CHARACTER",
+    pointValue: 2,
+  },
+  {
+    name: "Instagram Reels",
+    description: "Meta’s not-so-subtle imitation of TikTok.",
+    category: "TECHNOLOGY",
+    pointValue: 2,
+  },
+  {
+    name: "Flamin’ Hot Cheetos",
+    description: "The spicy snack you can’t stop eating until it burns.",
+    category: "FOOD",
+    pointValue: 2,
+  },
+  {
+    name: "White Claw",
+    description: "The alcoholic seltzer that’s taken over pool parties.",
+    category: "FOOD",
+    pointValue: 2,
+  },
+  {
+    name: "A K-Pop Fandom",
+    description: "Fans who passionately defend their idols on social media.",
+    category: "ET CETERA",
+    pointValue: 3,
+  },
+  {
+    name: "Meme Stocks",
+    description: "Stocks like GameStop, powered by Reddit chaos.",
+    category: "TECHNOLOGY",
+    pointValue: 4,
+  },
+  {
+    name: "Plant Mom/Dad",
+    description: "A person who treats their houseplants like their children.",
+    category: "ET CETERA",
+    pointValue: 2,
+  },
+  {
+    name: "A Yoga Mat",
+    description: "The key to your workout—or your excuses.",
+    category: "ET CETERA",
+    pointValue: 2,
+  },
+  {
+    name: "A Squishmallow",
+    description: "The plush toy that became the ultimate comfort item.",
+    category: "ET CETERA",
+    pointValue: 2,
+  },
+  {
+    name: "A Tesla",
+    description: "The electric car that’s either a tech marvel or a meme.",
+    category: "TECHNOLOGY",
+    pointValue: 3,
+  },
+  {
+    name: "An E-Girl",
+    description: "A social media aesthetic with winged eyeliner and dyed hair.",
+    category: "ET CETERA",
+    pointValue: 3,
+  },
+  {
+    name: "Netflix’s The Witcher",
+    description:
+      "The fantasy series starring Henry Cavill as a monster-hunting grump.",
+    category: "TV SHOW",
+    pointValue: 3,
+  },
+  {
+    name: "A Grilled Cheese Sandwich",
+    description: "The melty comfort food loved by everyone.",
+    category: "FOOD",
+    pointValue: 2,
+  },
+  {
+    name: "Amazon Prime",
+    description:
+      "The subscription service that has everything—except patience.",
+    category: "TECHNOLOGY",
+    pointValue: 2,
+  },
+  {
+    name: "Rihanna’s Super Bowl Halftime Show",
+    description: "The most anticipated musical comeback of the year.",
+    category: "CELEBRITY",
+    pointValue: 3,
+  },
+  {
+    name: "A Disney Adult",
+    description: "Someone whose personality revolves around Disney parks.",
+    category: "ET CETERA",
+    pointValue: 3,
+  },
+  {
+    name: "AirPods",
+    description: "The wireless earbuds you can’t live without.",
+    category: "TECHNOLOGY",
+    pointValue: 2,
+  },
+  {
+    name: "Uber Eats",
+    description: "The app that delivers food—and regret at 2 a.m.",
+    category: "TECHNOLOGY",
+    pointValue: 2,
+  },
+  {
+    name: "Dalgona Coffee",
+    description: "The whipped coffee trend that took over early quarantine.",
+    category: "FOOD",
+    pointValue: 2,
+  },
+  {
+    name: "A Roller Coaster",
+    description:
+      "The thrill ride that makes you scream and want to do it again.",
+    category: "ET CETERA",
+    pointValue: 2,
+  },
+  {
+    name: "An Otter",
+    description: "The adorable aquatic animal that holds hands while floating.",
+    category: "ANIMALS",
+    pointValue: 2,
+  },
+  {
+    name: "Axolotl",
+    description: "The cute, pink, and perpetually smiling aquatic creature.",
+    category: "ANIMALS",
+    pointValue: 3,
+  },
+  {
+    name: "A Golden Retriever",
+    description: "The friendly, loyal, and lovable dog everyone wants to pet.",
+    category: "ANIMALS",
+    pointValue: 2,
+  },
+  {
+    name: "A Red Panda",
+    description:
+      "The fluffy, tree-climbing animal that looks like a mix of a fox and a raccoon.",
+    category: "ANIMALS",
+    pointValue: 3,
+  },
+  {
+    name: "A Sloth",
+    description:
+      "The slow-moving animal that just wants to hang out—literally.",
+    category: "ANIMALS",
+    pointValue: 2,
+  },
+  {
+    name: "A Komodo Dragon",
+    description: "The large, venomous lizard that’s both terrifying and cool.",
+    category: "ANIMALS",
+    pointValue: 4,
+  },
+  {
+    name: "Charizard",
+    description: "The iconic dragon-like Pokémon from the original 151.",
+    category: "POKÉMON",
+    pointValue: 3,
+  },
+  {
+    name: "Eevee",
+    description: "The versatile Pokémon that can evolve into multiple forms.",
+    category: "POKÉMON",
+    pointValue: 2,
+  },
+  {
+    name: "Snorlax",
+    description: "The big, sleepy Pokémon that loves to nap and block roads.",
+    category: "POKÉMON",
+    pointValue: 3,
+  },
+  {
+    name: "Mewtwo",
+    description:
+      "The psychic Pokémon created by science and destined to battle.",
+    category: "POKÉMON",
+    pointValue: 4,
+  },
+  {
+    name: "A Hoverboard",
+    description: "The trendy, self-balancing scooter everyone wanted in 2015.",
+    category: "TECHNOLOGY",
+    pointValue: 2,
+  },
+  {
+    name: "A Drone",
+    description: "The flying gadget that captures incredible aerial shots.",
+    category: "TECHNOLOGY",
+    pointValue: 3,
+  },
+  {
+    name: "A Smart Fridge",
+    description: "The fridge that tells you you’re out of milk.",
+    category: "TECHNOLOGY",
+    pointValue: 2,
+  },
+  {
+    name: "An Electric Scooter",
+    description:
+      "The convenient and sometimes dangerous way to get around the city.",
+    category: "TECHNOLOGY",
+    pointValue: 3,
+  },
+  {
+    name: "A Tamagotchi",
+    description:
+      "The digital pet you loved in the 90s—and kept alive for a week.",
+    category: "TECHNOLOGY",
+    pointValue: 4,
+  },
+  {
+    name: "The Death Star",
+    description: "The planet-destroying space station from Star Wars.",
+    category: "FICTIONAL ITEM",
+    pointValue: 4,
+  },
+  {
+    name: "Wakanda",
+    description: "The fictional, advanced African nation from Black Panther.",
+    category: "FICTIONAL LOCATION",
+    pointValue: 3,
+  },
+  {
+    name: "Hyrule",
+    description: "The kingdom where Link battles Ganon and saves Zelda.",
+    category: "FICTIONAL LOCATION",
+    pointValue: 3,
+  },
+  {
+    name: "The Upside Down",
+    description: "The creepy alternate dimension from Stranger Things.",
+    category: "FICTIONAL LOCATION",
+    pointValue: 3,
+  },
+  {
+    name: "R2-D2",
+    description: "The lovable astromech droid from Star Wars.",
+    category: "FICTIONAL CHARACTER",
+    pointValue: 2,
+  },
+  {
+    name: "A Lightsaber",
+    description: "The elegant weapon of a Jedi Knight.",
+    category: "FICTIONAL ITEM",
+    pointValue: 2,
+  },
+  {
+    name: "A Poké Ball",
+    description: "The essential tool for capturing Pokémon.",
+    category: "FICTIONAL ITEM",
+    pointValue: 2,
+  },
+  {
+    name: "Bowser",
+    description: "Mario's turtle-like nemesis and Peach’s serial kidnapper.",
+    category: "FICTIONAL CHARACTER",
+    pointValue: 3,
+  },
+  {
+    name: "Waluigi",
+    description:
+      "The lanky and mischievous Mario character everyone loves to hate.",
+    category: "FICTIONAL CHARACTER",
+    pointValue: 3,
+  },
+  {
+    name: "A Bowl of Ramen",
+    description: "The comforting, noodle-filled dish that’s Instagram-worthy.",
+    category: "FOOD",
+    pointValue: 2,
+  },
+  {
+    name: "A Doughnut",
+    description: "The sweet, fried treat that comes in endless flavors.",
+    category: "FOOD",
+    pointValue: 2,
+  },
+  {
+    name: "Pineapple Pizza",
+    description: "The controversial topping that divides pizza lovers.",
+    category: "FOOD",
+    pointValue: 3,
+  },
+  {
+    name: "Bubblegum Ice Cream",
+    description:
+      "The brightly colored flavor loved by kids and nostalgic adults.",
+    category: "FOOD",
+    pointValue: 2,
+  },
+  {
+    name: "A Chocolate Fountain",
+    description: "The decadent centerpiece of every fancy party.",
+    category: "FOOD",
+    pointValue: 4,
+  },
+  {
+    name: "Central Park",
+    description: "The sprawling urban park in New York City.",
+    category: "TRAVEL",
+    pointValue: 3,
+  },
+  {
+    name: "The Eiffel Tower",
+    description: "The iconic iron landmark in Paris, France.",
+    category: "TRAVEL",
+    pointValue: 3,
+  },
+  {
+    name: "The Grand Canyon",
+    description: "The vast, breathtaking natural wonder in the United States.",
+    category: "TRAVEL",
+    pointValue: 4,
+  },
+  {
+    name: "The Great Barrier Reef",
+    description: "The colorful coral reef system off Australia’s coast.",
+    category: "TRAVEL",
+    pointValue: 4,
+  },
+  {
+    name: "Machu Picchu",
+    description: "The ancient Incan citadel high in the Andes Mountains.",
+    category: "TRAVEL",
+    pointValue: 4,
+  },
+  {
+    name: "A Hot Air Balloon",
+    description: "The serene and scenic way to see the world from above.",
+    category: "TRAVEL",
+    pointValue: 3,
+  },
+  {
+    name: "The Northern Lights",
+    description: "The dazzling natural light display in the Arctic skies.",
+    category: "TRAVEL",
+    pointValue: 4,
+  },
+  {
+    name: "An Escape Room",
+    description: "The puzzle-filled adventure where teamwork is everything.",
+    category: "ACTIVITY",
+    pointValue: 3,
+  },
+  {
+    name: "A Board Game Night",
+    description:
+      "The fun-filled evening of Monopoly and friendships on the line.",
+    category: "ACTIVITY",
+    pointValue: 2,
+  },
+  {
+    name: "A Spa Day",
+    description: "The ultimate way to relax with massages and facials.",
+    category: "ACTIVITY",
+    pointValue: 3,
+  },
+  {
+    name: "Bungee Jumping",
+    description:
+      "The adrenaline rush of leaping off a bridge attached to a cord.",
+    category: "ACTIVITY",
+    pointValue: 4,
+  },
+  {
+    name: "The Olympics",
+    description: "The global sporting event that brings the world together.",
+    category: "EVENT",
+    pointValue: 3,
+  },
+  {
+    name: "A Flash Mob",
+    description: "The spontaneous public dance that surprises everyone.",
+    category: "EVENT",
+    pointValue: 3,
+  },
+  {
+    name: "A Protest March",
+    description: "The powerful demonstration for change and justice.",
+    category: "EVENT",
+    pointValue: 4,
+  },
 ];
 /* eslint-disable */
