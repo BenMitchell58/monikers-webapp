@@ -2558,7 +2558,7 @@ module.exports = [
     name: "Stephen Hawking",
     description:
       "A theoretical physicist and cosmologist who made major contributions to the field of general relativity. He has a motor neuron disease that leaves him almost entirely paralyzed. He communicates exclusively through a speech generating device.",
-    category: "ET CETERA FICTIONAL CHARACTER CELEBRITY HISTORICAL FIGURE",
+    category: "HISTORICAL FIGURE",
     pointValue: 1,
   },
   {
