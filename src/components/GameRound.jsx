@@ -105,8 +105,10 @@ const GameRound = () => {
           <span className="card-points">{`${roundDeck[currentCardIndex]?.pointValue} Points`}</span>
         </div>
       </div>
-      <button onClick={correctGuess}>Correct</button>
-      <button onClick={skipCard}>Skip</button>
+      <div className="button-group">
+        <button onClick={correctGuess}>Correct</button>
+        <button onClick={skipCard}>Skip</button>
+      </div>
     </div>
   );
 };

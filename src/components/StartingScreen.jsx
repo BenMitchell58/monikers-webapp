@@ -1,21 +1,15 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { useGameContext } from "../context/GameContext";
+import {DEFAULT_SETTINGS} from "../consts/config";
+import {dividePlayersIntoTeams} from "../utils";
 
 const StartingScreen = () => {
   const { setGameConfig, setTeams } = useGameContext();
   const navigate = useNavigate();
-  const [numPlayers, setNumPlayers] = useState(2);
-  const [cardsPerPlayer, setCardsPerPlayer] = useState(1);
-  const [timeLimit, setTimeLimit] = useState(5);
-
-  const dividePlayersIntoTeams = (numPlayers) => {
-    const teams = [[], []];
-    for (let i = 0; i < numPlayers; i++) {
-      teams[i % 2].push(`Player ${i + 1}`);
-    }
-    return teams;
-  };
+  const [numPlayers, setNumPlayers] = useState(DEFAULT_SETTINGS.numPlayers);
+  const [cardsPerPlayer, setCardsPerPlayer] = useState(DEFAULT_SETTINGS.cardsPerPlayer);
+  const [timeLimit, setTimeLimit] = useState(DEFAULT_SETTINGS.timeLimit);
 
   const startGame = () => {
     setGameConfig({ numPlayers, cardsPerPlayer, timeLimit });
