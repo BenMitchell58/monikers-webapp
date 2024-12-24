@@ -5802,5 +5802,177 @@ module.exports = [
     category: "MOVIES",
     pointValue: 4,
   },
+  {
+    name: "SpongeBob SquarePants",
+    description:
+      "The optimistic sea sponge who flips Krabby Patties in Bikini Bottom.",
+    category: "FICTIONAL CHARACTER",
+    pointValue: 2,
+  },
+  {
+    name: "Tony Stark (Iron Man)",
+    description:
+      "The genius billionaire playboy philanthropist who created the Iron Man suit.",
+    category: "FICTIONAL CHARACTER",
+    pointValue: 3,
+  },
+  {
+    name: "Elsa (Frozen)",
+    description:
+      "The Disney queen with ice powers and a hit song you can’t escape.",
+    category: "FICTIONAL CHARACTER",
+    pointValue: 2,
+  },
+  {
+    name: "Sherlock Holmes",
+    description: "The legendary detective with unparalleled deductive skills.",
+    category: "FICTIONAL CHARACTER",
+    pointValue: 3,
+  },
+  {
+    name: "Gollum (Lord of the Rings)",
+    description:
+      "The creepy and conflicted creature obsessed with 'the precious.'",
+    category: "FICTIONAL CHARACTER",
+    pointValue: 3,
+  },
+  {
+    name: "Rick Sanchez (Rick and Morty)",
+    description:
+      "The genius but reckless scientist who drags Morty on wild adventures.",
+    category: "FICTIONAL CHARACTER",
+    pointValue: 3,
+  },
+  {
+    name: "Katniss Everdeen",
+    description: "The bow-wielding heroine of The Hunger Games.",
+    category: "FICTIONAL CHARACTER",
+    pointValue: 3,
+  },
+  {
+    name: "Winnie the Pooh",
+    description: "The lovable bear with an endless craving for honey.",
+    category: "FICTIONAL CHARACTER",
+    pointValue: 2,
+  },
+  {
+    name: "Darth Vader",
+    description: "The Sith Lord formerly known as Anakin Skywalker.",
+    category: "FICTIONAL CHARACTER",
+    pointValue: 3,
+  },
+  {
+    name: "Princess Leia",
+    description: "The Rebel Alliance leader with iconic hair buns.",
+    category: "FICTIONAL CHARACTER",
+    pointValue: 2,
+  },
+  {
+    name: "Homer Simpson",
+    description: "The donut-loving dad from Springfield.",
+    category: "FICTIONAL CHARACTER",
+    pointValue: 2,
+  },
+  {
+    name: "The Joker",
+    description: "Batman’s chaotic and unpredictable arch-nemesis.",
+    category: "FICTIONAL CHARACTER",
+    pointValue: 3,
+  },
+  {
+    name: "Optimus Prime",
+    description: "The noble leader of the Autobots from Transformers.",
+    category: "FICTIONAL CHARACTER",
+    pointValue: 3,
+  },
+  {
+    name: "Harry Potter",
+    description: "The Boy Who Lived and the chosen one in the wizarding world.",
+    category: "FICTIONAL CHARACTER",
+    pointValue: 3,
+  },
+  {
+    name: "Eeyore",
+    description: "The gloomy yet lovable donkey from Winnie the Pooh.",
+    category: "FICTIONAL CHARACTER",
+    pointValue: 2,
+  },
+  {
+    name: "Sauron",
+    description:
+      "The dark lord from The Lord of the Rings with a menacing eye.",
+    category: "FICTIONAL CHARACTER",
+    pointValue: 4,
+  },
+  {
+    name: "The Infinity Gauntlet",
+    description: "The powerful glove that holds all six Infinity Stones.",
+    category: "FICTIONAL ITEM",
+    pointValue: 4,
+  },
+  {
+    name: "The One Ring",
+    description:
+      "The ring of power from The Lord of the Rings that corrupts its owner.",
+    category: "FICTIONAL ITEM",
+    pointValue: 4,
+  },
+  {
+    name: "The Elder Wand",
+    description: "The unbeatable wand from the Harry Potter series.",
+    category: "FICTIONAL ITEM",
+    pointValue: 3,
+  },
+  {
+    name: "The Sorting Hat",
+    description:
+      "The magical hat that assigns Hogwarts students to their houses.",
+    category: "FICTIONAL ITEM",
+    pointValue: 2,
+  },
+  {
+    name: "The Death Star",
+    description: "The moon-sized space station capable of destroying planets.",
+    category: "FICTIONAL ITEM",
+    pointValue: 4,
+  },
+  {
+    name: "A TARDIS",
+    description: "The time-traveling police box from Doctor Who.",
+    category: "FICTIONAL ITEM",
+    pointValue: 3,
+  },
+  {
+    name: "The Golden Snitch",
+    description: "The high-value ball in Quidditch that ends the game.",
+    category: "FICTIONAL ITEM",
+    pointValue: 3,
+  },
+  {
+    name: "The Trident of Poseidon",
+    description: "The weapon wielded by Aquaman to command the seas.",
+    category: "FICTIONAL ITEM",
+    pointValue: 3,
+  },
+  {
+    name: "The Shield of Captain America",
+    description:
+      "The iconic vibranium shield used for both defense and offense.",
+    category: "FICTIONAL ITEM",
+    pointValue: 3,
+  },
+  {
+    name: "Excalibur",
+    description: "The legendary sword of King Arthur, pulled from the stone.",
+    category: "FICTIONAL ITEM",
+    pointValue: 3,
+  },
+  {
+    name: "The Philosopher’s Stone",
+    description:
+      "The magical object that grants immortality in the Harry Potter series.",
+    category: "FICTIONAL ITEM",
+    pointValue: 4,
+  },
 ];
 /* eslint-disable */
